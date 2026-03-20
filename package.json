@@ -1,13 +1,18 @@
-"alpaca-chatbot"
-version	"2.0.0"
-description	"Naomi — Chatbot Piani degli Alpaca · Sviluppato da Infosoft"
-main	"server.js"
-scripts	
-start	"node server.js"
-dependencies	
-@anthropic-ai/sdk	"^0.39.0"
-cors	"^2.8.5"
-express	"^4.18.3"
-engines	
-node	">=18.0.0"
-author	"Infosoft (infosoft.it)"
+{
+  "name": "alpaca-chatbot",
+  "version": "2.0.0",
+  "description": "Naomi — Chatbot Piani degli Alpaca · Sviluppato da Infosoft",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Infosoft (infosoft.it)"
+}
